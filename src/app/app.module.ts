@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { AvatarPhotoComponent } from './avatar-photo/avatar-photo.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AvatarPhotoComponent
   ],
   imports: [
     BrowserModule

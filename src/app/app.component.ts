@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'empty';
+
+  users =[];
+
+  constructor() {
+    this.users.push({name: "John Wick"});
+    this.users.push({name: "Guillermo del Toro"});
+    this.users.push({name: "Brad Pitt", photo: "/assets/angular.png"});
+    this.users.push({name: "Max Payne"});
+    this.users.push({name: "Optimus Prime"});
+    this.users.push({name: "Wednesday Addams"});
+    this.users.push({name: "Ethan Hunt"});
+  }
 }
